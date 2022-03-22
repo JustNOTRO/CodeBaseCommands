@@ -1,0 +1,29 @@
+name: CodeBaseCommands
+version: '${version}'
+main: dev.notro.firstcommand.CodeBaseCommands
+api-version: 1.18
+authors: [ Notro ]
+description: CodeBaseCommands
+commands:
+  fly:
+    description: 'Sets a player Flight.'
+  god:
+    description: 'Sets a player Invincible.'
+  heal:
+    description: 'Heals a player.'
+  gmc:
+    description: 'Sets a player to Game mode Creative.'
+  gma:
+    description: 'Sets a player to Game mode Adventure.'
+  gms:
+    description: 'Sets a player to Game mode Survival.'
+  gmsp:
+    description: 'Sets a player to Game mode Spectator.'
+  feed:
+    description: 'Feeds a player.'
+  vanish:
+    description: 'Makes a player Invisible to players.'
+    aliases: v
+  freeze:
+    description: 'Freeze a player.'
+    aliases: ss
